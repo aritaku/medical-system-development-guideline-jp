@@ -51,4 +51,3 @@ export default async function UpdatePage({ params }: { params: { slug: string } 
     </div>
   )
 }
-
