@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" fill="none">
+  <rect width="500" height="300" fill="#1a1a1a"/>
+  <circle cx="250" cy="150" r="100" fill="#4a90e2" opacity="0.1"/>
+  <path d="M200 150 L300 150 M250 100 L250 200" stroke="#4a90e2" stroke-width="8" stroke-linecap="round"/>
+  <rect x="50" y="50" width="80" height="80" rx="10" fill="#4a90e2" opacity="0.7"/>
+  <rect x="370" y="50" width="80" height="80" rx="10" fill="#4a90e2" opacity="0.7"/>
+  <rect x="50" y="170" width="80" height="80" rx="10" fill="#4a90e2" opacity="0.7"/>
+  <rect x="370" y="170" width="80" height="80" rx="10" fill="#4a90e2" opacity="0.7"/>
+  <path d="M130 90 L200 150 M300 150 L370 90 M130 210 L200 150 M300 150 L370 210" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">医療システム開発ガイドライン</text>
+</svg>
+
