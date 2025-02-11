@@ -10,7 +10,7 @@ type Update = {
 }
 
 export default function UpdateHistory() {
-  const updatesDirectory = path.join(process.cwd(), "app/updates")
+  const updatesDirectory = path.join(process.cwd(), "app/pages")
   const files = fs.readdirSync(updatesDirectory)
   const updates: Update[] = files
     .filter((filename) => filename.endsWith(".md"))
@@ -35,7 +35,7 @@ export default function UpdateHistory() {
           <div className="ml-10">
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">{update.date}</time>
             <h3 className="text-lg font-semibold text-white">
-              <Link href={`/updates/${update.slug}`} className="hover:text-blue-400 transition-colors">
+              <Link href={`/pages/${update.slug}`} className="hover:text-blue-400 transition-colors">
                 {update.title}
               </Link>
             </h3>

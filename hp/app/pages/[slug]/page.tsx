@@ -4,9 +4,10 @@ import matter from "gray-matter"
 import { remark } from "remark"
 import html from "remark-html"
 import Link from "next/link"
+import '../../globals.css'
 
 export async function generateStaticParams() {
-  const files = fs.readdirSync(path.join(process.cwd(), "app/updates"))
+  const files = fs.readdirSync(path.join(process.cwd(), "app/pages"))
   return files
     .filter((filename) => filename.endsWith(".md"))
     .map((filename) => ({
@@ -16,7 +17,7 @@ export async function generateStaticParams() {
 
 export default async function UpdatePage({ params }: { params: { slug: string } }) {
   const { slug } = params
-  const filePath = path.join(process.cwd(), "app/updates", `${slug}.md`)
+  const filePath = path.join(process.cwd(), "app/pages", `${slug}.md`)
 
   // ファイルが存在しない場合のエラー処理
   if (!fs.existsSync(filePath)) {
