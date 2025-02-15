@@ -30,37 +30,34 @@ export default function Home() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl sm:text-2xl font-semibold mb-4">概要・目的</h2>
-          <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
-            <li className="mb-8">
-                <h3 className="text-xl font-bold mb-3 text-primary">目的</h3>
-                <p className="text-gray-700 leading-relaxed">
-                    本開発ガイドラインは、クラウドを前提とした医療情報システムの開発指針を提供します。
-                </p>
-            </li>
-            <li className="mb-8">
-                <h3 className="text-xl font-bold mb-3 text-primary">期待される効果</h3>
-                <p className="text-gray-700 leading-relaxed mb-3">
-                    本ガイドラインに準拠した開発により、以下のメリットを社会全体で享受できます：
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                    <li className="text-gray-700">医療機関におけるシステム運用負担の削減</li>
-                    <li className="text-gray-700">サイバーセキュリティ対策の向上</li>
-                    <li className="text-gray-700">医療情報のシームレスな活用</li>
-                    <li className="text-gray-700">医療情報を活用した臨床試験・治験環境の活性化</li>
-                </ul>
-            </li>
-            <li className="mb-8">
-                <h3 className="text-xl font-bold mb-3 text-primary">ビジョン</h3>
-                <p className="text-gray-700 leading-relaxed mb-3">
-                    オープンソースとして管理・運用され、以下を目指します：
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                    <li className="text-gray-700">日本国内の医療情報システム開発企業の開発力向上</li>
-                    <li className="text-gray-700">医療システム産業のオールジャパンでの活性化</li>
-                </ul>
-            </li>
-          </ul>
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4">目的</h2>
+              <p className="text-sm sm:text-base">
+                  本開発ガイドラインは、クラウドを前提とした医療情報システムの開発指針を提供します。
+              </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4">期待される効果</h2>
+              <p className="text-sm sm:text-base">
+                  本ガイドラインに準拠した開発により、以下のメリットを社会全体で享受できます：
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                  <li className="text-sm sm:text-base">医療機関におけるシステム運用負担の削減</li>
+                  <li className="text-sm sm:text-base">サイバーセキュリティ対策の向上</li>
+                  <li className="text-sm sm:text-base">医療情報のシームレスな活用</li>
+                  <li className="text-sm sm:text-base">医療情報を活用した臨床試験・治験環境の活性化</li>
+              </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4">ビジョン</h2>
+            <p className="text-sm sm:text-base">
+                オープンソースとして管理・運用され、以下を目指します：
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+                <li className="text-sm sm:text-base">日本国内の医療情報システム開発企業の開発力向上</li>
+                <li className="text-sm sm:text-base">医療システム産業のオールジャパンでの活性化</li>
+            </ul>
         </section>
 
         <section className="mb-8">
